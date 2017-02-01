@@ -186,10 +186,10 @@
             </objects>
             <point key="canvasLocation" x="217" y="1925"/>
         </scene>
-        <!--View Controller-->
+        <!--View Controller Tercera-->
         <scene sceneID="B1l-Db-pbl">
             <objects>
-                <viewController id="Zft-Ax-sMC" sceneMemberID="viewController">
+                <viewController id="Zft-Ax-sMC" customClass="ViewControllerTercera" customModule="clase_4_Navegacion_en_IOS" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="AbY-51-ojZ"/>
                         <viewControllerLayoutGuide type="bottom" id="8lZ-mh-NQv"/>
@@ -198,13 +198,6 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Tercera" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ri1-18-4IN">
-                                <frame key="frameInset" minX="166" minY="156" width="58" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="b6z-hb-Jep">
                                 <frame key="frameInset" minX="155" minY="400" width="64" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -213,19 +206,36 @@
                                     <segue destination="aeY-rh-PLO" kind="show" id="3zl-nD-F5m"/>
                                 </connections>
                             </button>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="A3T-MJ-2Cy">
+                                <frame key="frameInset" minX="59" minY="298" width="258" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Tercera" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ri1-18-4IN">
+                                <frame key="frameInset" minX="159" minY="152" width="58" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                     <navigationItem key="navigationItem" id="TmW-N2-MXB"/>
+                    <connections>
+                        <outlet property="textTercera" destination="A3T-MJ-2Cy" id="UTL-1o-1Gn"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Aoq-wN-Hks" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1999.2" y="1578.2608695652175"/>
         </scene>
-        <!--View Controller-->
+        <!--View Controller Cuarta-->
         <scene sceneID="UJ4-H4-hH5">
             <objects>
-                <viewController id="aeY-rh-PLO" sceneMemberID="viewController">
+                <viewController id="aeY-rh-PLO" customClass="ViewControllerCuarta" customModule="clase_4_Navegacion_en_IOS" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="teY-mV-AcY"/>
                         <viewControllerLayoutGuide type="bottom" id="reo-l4-wzR"/>
@@ -235,7 +245,14 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Cuarta" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="inX-RG-pad">
-                                <frame key="frameInset" minX="166" minY="282" width="52" height="21"/>
+                                <frame key="frameInset" minX="161" minY="148" width="52" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hm2-kb-D7G">
+                                <frame key="frameInset" minX="64" minY="323" width="246" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
@@ -244,6 +261,9 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
+                    <connections>
+                        <outlet property="lblCuarta" destination="hm2-kb-D7G" id="UCk-AI-VHx"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="3Fp-vb-8Ku" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -254,9 +274,11 @@
             <objects>
                 <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="YvQ-JZ-VAD" sceneMemberID="viewController">
                     <toolbarItems/>
-                    <tabBar key="tabBar" contentMode="scaleToFill" id="JHQ-A7-BiZ">
+                    <tabBar key="tabBar" contentMode="scaleToFill" itemPositioning="centered" itemSpacing="30" itemWidth="50" id="JHQ-A7-BiZ">
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                        <color key="barTintColor" red="0.66299954187632792" green="0.84637681491652139" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="selectedImageTintColor" red="1" green="0.0" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                     </tabBar>
                     <connections>
                         <segue destination="9ZN-ar-z3a" kind="relationship" relationship="viewControllers" id="AAB-68-6PI"/>

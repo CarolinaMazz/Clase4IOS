@@ -13,6 +13,8 @@
 		FB46F0B51E41652B00B20A47 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FB46F0B41E41652B00B20A47 /* Assets.xcassets */; };
 		FB46F0B81E41652B00B20A47 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB46F0B61E41652B00B20A47 /* LaunchScreen.storyboard */; };
 		FB46F0C01E416E9900B20A47 /* NavegacionIOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB46F0BF1E416E9900B20A47 /* NavegacionIOS.swift */; };
+		FB46F0C21E417F9D00B20A47 /* ViewControllerTercera.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB46F0C11E417F9D00B20A47 /* ViewControllerTercera.swift */; };
+		FB46F0C41E417FB500B20A47 /* ViewControllerCuarta.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB46F0C31E417FB500B20A47 /* ViewControllerCuarta.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		FB46F0B71E41652B00B20A47 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FB46F0B91E41652B00B20A47 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FB46F0BF1E416E9900B20A47 /* NavegacionIOS.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NavegacionIOS.swift; sourceTree = "<group>"; };
+		FB46F0C11E417F9D00B20A47 /* ViewControllerTercera.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewControllerTercera.swift; sourceTree = "<group>"; };
+		FB46F0C31E417FB500B20A47 /* ViewControllerCuarta.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewControllerCuarta.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +67,8 @@
 				FB46F0B61E41652B00B20A47 /* LaunchScreen.storyboard */,
 				FB46F0B91E41652B00B20A47 /* Info.plist */,
 				FB46F0BF1E416E9900B20A47 /* NavegacionIOS.swift */,
+				FB46F0C11E417F9D00B20A47 /* ViewControllerTercera.swift */,
+				FB46F0C31E417FB500B20A47 /* ViewControllerCuarta.swift */,
 			);
 			path = "clase 4 Navegacion en IOS";
 			sourceTree = "<group>";
@@ -141,7 +147,9 @@
 			files = (
 				FB46F0B01E41652B00B20A47 /* ViewController.swift in Sources */,
 				FB46F0C01E416E9900B20A47 /* NavegacionIOS.swift in Sources */,
+				FB46F0C41E417FB500B20A47 /* ViewControllerCuarta.swift in Sources */,
 				FB46F0AE1E41652B00B20A47 /* AppDelegate.swift in Sources */,
+				FB46F0C21E417F9D00B20A47 /* ViewControllerTercera.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
